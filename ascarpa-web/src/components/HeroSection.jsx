@@ -56,10 +56,10 @@ const Hero = () => {
           </Col>
           
           <Col lg={6} className="mt-5 mt-lg-0 text-center text-lg-end">
-             <img 
-               src=".././carpa1.jpeg" 
-               className="img-fluid rounded-4 shadow-lg" 
-               style={{ maxWidth: '90%' }} 
+             <img
+               src={`${import.meta.env.BASE_URL}carpa1.jpeg`}
+               className="img-fluid rounded-4 shadow-lg"
+               style={{ maxWidth: '90%' }}
                alt="Ascarpa"
              />
           </Col>

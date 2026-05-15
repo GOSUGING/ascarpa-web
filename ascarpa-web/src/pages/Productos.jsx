@@ -6,15 +6,16 @@ const Productos = () => {
   const azulOscuro = '#456E7B';
   const cian = '#71BBCC';
 
+  const base = import.meta.env.BASE_URL;
   const listaProductos = [
-    { id: 1, nombre: "Carpas Plisadas", desc: "Estructuras elegantes para eventos de alto nivel.", img: ".././carpa-plisada.jpeg" },
-    { id: 2, nombre: "Toldos", desc: "Protección versátil para eventos al aire libre.", img: ".././carpa2.jpeg" },
-    { id: 3, nombre: "Sillas Plegables", desc: "Comodidad y practicidad para tus invitados.", img: ".././silla-plegable.png" },
-    { id: 4, nombre: "Iluminación", desc: "Ambientación perfecta con focos LED y guirnaldas.", img: ".././iluminacion.jpg" },
-    { id: 5, nombre: "Estufas de Exterior", desc: "Calidez para eventos nocturnos o de invierno.", img: ".././estufa.jpg" },
-    { id: 6, nombre: "Cubrepisos y Alfombras", desc: "Acabado profesional sobre pasto o pavimento.", img: ".././cubrepisos.jpg" },
-    { id: 7, nombre: "Pasto Sintético", desc: "Transforma cualquier superficie en un jardín.", img: ".././pasto-sintetico.jpg" },
-    { id: 8, nombre: "Ventiladores Industriales", desc: "Frescura garantizada en días calurosos.", img: ".././ventilador.webp" }
+    { id: 1, nombre: "Carpas Plisadas", desc: "Estructuras elegantes para eventos de alto nivel.", img: `${base}carpa-plisada.jpeg` },
+    { id: 2, nombre: "Toldos", desc: "Protección versátil para eventos al aire libre.", img: `${base}carpa2.jpeg` },
+    { id: 3, nombre: "Sillas Plegables", desc: "Comodidad y practicidad para tus invitados.", img: `${base}silla-plegable.png` },
+    { id: 4, nombre: "Iluminación", desc: "Ambientación perfecta con focos LED y guirnaldas.", img: `${base}iluminacion.jpg` },
+    { id: 5, nombre: "Estufas de Exterior", desc: "Calidez para eventos nocturnos o de invierno.", img: `${base}estufa.jpg` },
+    { id: 6, nombre: "Cubrepisos y Alfombras", desc: "Acabado profesional sobre pasto o pavimento.", img: `${base}cubrepisos.jpg` },
+    { id: 7, nombre: "Pasto Sintético", desc: "Transforma cualquier superficie en un jardín.", img: `${base}pasto-sintetico.jpg` },
+    { id: 8, nombre: "Ventiladores Industriales", desc: "Frescura garantizada en días calurosos.", img: `${base}ventilador.webp` }
   ];
 
   return (

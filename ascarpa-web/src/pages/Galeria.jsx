@@ -13,13 +13,14 @@ const Galeria = () => {
   const cianOficial = '#71BBCC'; //
   const azulOscuroOficial = '#456E7B'; //
 
+  const base = import.meta.env.BASE_URL;
   const fotos = [
-    { id: 1, url: '.././carpa2.jpeg', desc: 'Toldo y Sillas Evento SERVIU' },
-    { id: 2, url: '.././carpa3.jpeg', desc: 'Carpa Servicio de Emergencia' },
-    { id: 3, url: '.././carpa4.jpeg', desc: 'Carpa con Panorámicos' },
-    { id: 4, url: '.././carpa5.jpeg', desc: 'Estructura con Cielo Falso' },
-    { id: 5, url: '.././carpa6.jpeg', desc: 'Gala Festival de Viña' },
-    { id: 6, url: '.././carpa7.jpeg', desc: 'Carpa Rockódromo' },
+    { id: 1, url: `${base}carpa2.jpeg`, desc: 'Toldo y Sillas Evento SERVIU' },
+    { id: 2, url: `${base}carpa3.jpeg`, desc: 'Carpa Servicio de Emergencia' },
+    { id: 3, url: `${base}carpa4.jpeg`, desc: 'Carpa con Panorámicos' },
+    { id: 4, url: `${base}carpa5.jpeg`, desc: 'Estructura con Cielo Falso' },
+    { id: 5, url: `${base}carpa6.jpeg`, desc: 'Gala Festival de Viña' },
+    { id: 6, url: `${base}carpa7.jpeg`, desc: 'Carpa Rockódromo' },
   ];
 
   return (
